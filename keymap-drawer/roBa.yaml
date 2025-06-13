@@ -2,28 +2,28 @@ layout: {zmk_keyboard: roBa}
 layers:
   default:
   - Q
-  - W
-  - E
-  - R
+  - {t: W, h: MOUSE}
+  - {t: E, h: ARROW}
+  - {t: R, h: NUM}
   - T
   - Y
-  - U
-  - {t: I, h: SCROLL}
-  - O
+  - {t: U, h: NUM}
+  - {t: I, h: ARROW}
+  - {t: O, h: MOUSE}
   - P
   - A
-  - {t: S, h: MOUSE}
-  - {t: D, h: ARROW}
-  - {t: F, h: NUM}
+  - S
+  - D
+  - F
   - G
   - {t: Sft+Gui+S, h: SCROLL}
-  - {t: '[', h: SCROLL}
+  - '['
   - H
-  - {t: J, h: NUM}
-  - {t: K, h: ARROW}
-  - {t: L, h: MOUSE}
+  - J
+  - K
+  - L
   - BACKSPACE
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
@@ -32,42 +32,42 @@ layers:
   - ']'
   - N
   - M
-  - ','
+  - {t: ',', h: SCROLL}
   - .
-  - {t: ':', h: RIGHT SHIFT}
-  - LEFT SHIFT
+  - ':'
+  - LEFT ALT
   - Ctl+LEFT COMMAND
   - ESCAPE
-  - LEFT ALT
+  - LEFT SHIFT
   - LEFT WIN
   - LEFT CONTROL
   - ENTER
   - SPACE
   - {t: ;, h: BLUETOOTH}
   NUM:
-  - '#'
+  - '&'
   - KP 7
   - KP 8
-  - KP 9
+  - {t: KP 9, type: held}
   - KP 0
   - '='
   - +
   - '-'
   - '*'
   - '%'
-  - $
+  - '|'
   - KP 4
   - KP 5
-  - {t: KP 6, type: held}
+  - KP 6
   - '!'
   - Ctl+Alt+KP 0
   - (
   - '~'
   - ^
   - _
-  - '&'
-  - '|'
+  - '#'
   - {t: ▽, type: trans}
+  - $
   - KP 1
   - KP 2
   - KP 3
@@ -91,7 +91,7 @@ layers:
   ARROW:
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - {t: ▽, type: trans}
+  - {type: held}
   - Ctl+TAB
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
@@ -101,7 +101,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -134,6 +134,7 @@ layers:
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,8 +144,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '&mkp MB1', type: held}
+  - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: ▽, type: trans}
@@ -184,15 +184,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
