@@ -63,10 +63,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W                 &kp E       &kp R         &kp T                                                   &kp Y      &kp U    &lt 4 I    &kp O    &kp P
-&kp A             &lt 3 S               &lt 2 D     &lt 1 F       &kp G         &lt 4 LS(LG(S))       &lt 4 LEFT_BRACKET  &kp H      &lt 1 J  &lt 2 K    &lt 3 L  &kp BACKSPACE
-&mt LEFT_SHIFT Z  &kp X                 &kp C       &kp V         &kp B         &kp TAB               &kp RIGHT_BRACKET   &kp N      &kp M    &kp COMMA  &kp DOT  &mt RIGHT_SHIFT COLON
-&kp LEFT_SHIFT    &kp LC(LEFT_COMMAND)  &kp ESCAPE  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_CONTROL      &kp ENTER           &kp SPACE                               &lt 5 SEMI
+&kp Q         &lt 3 W               &lt 2 E     &lt 1 R         &kp T                                                  &kp Y      &lt 1 U  &lt 2 I      &lt 3 O  &kp P
+&kp A         &kp S                 &kp D       &kp F           &kp G         &lt 4 LS(LG(S))       &kp LEFT_BRACKET   &kp H      &kp J    &kp K        &kp L    &kp BACKSPACE
+&kp Z         &kp X                 &kp C       &kp V           &kp B         &kp TAB               &kp RIGHT_BRACKET  &kp N      &kp M    &lt 4 COMMA  &kp DOT  &kp COLON
+&kp LEFT_ALT  &kp LC(LEFT_COMMAND)  &kp ESCAPE  &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_CONTROL      &kp ENTER          &kp SPACE                                 &lt 5 SEMI
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -74,10 +74,10 @@
 
         NUM {
             bindings = <
-&kp HASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                                                      &kp EQUAL         &kp PLUS           &kp MINUS  &kp ASTERISK   &kp PERCENT
-&kp DLLR  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EXCL         &kp LC(LA(KP_NUMBER_0))      &kp LEFT_PARENTHESIS   &kp TILDE         &kp CARET          &kp UNDER  &kp AMPERSAND  &kp PIPE
-&trans    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp QUESTION     &trans                       &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE  &kp AT         &kp SLASH
-&trans    &trans           &trans           &trans           &trans           &trans                       &trans                 &trans                                                         &kp NON_US_BACKSLASH
+&kp AMPERSAND  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                                                      &kp EQUAL         &kp PLUS           &kp MINUS  &kp ASTERISK  &kp PERCENT
+&kp PIPE       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EXCL         &kp LC(LA(KP_NUMBER_0))      &kp LEFT_PARENTHESIS   &kp TILDE         &kp CARET          &kp UNDER  &kp HASH      &trans
+&kp DOLLAR     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp QUESTION     &trans                       &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE  &kp AT        &kp SLASH
+&trans         &trans           &trans           &trans           &trans           &trans                       &trans                 &trans                                                        &kp NON_US_BACKSLASH
             >;
         };
 
