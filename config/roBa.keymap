@@ -76,8 +76,8 @@
             bindings = <
 &kp AMPERSAND  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                                                      &kp EQUAL         &kp PLUS           &kp MINUS  &kp ASTERISK  &kp PERCENT
 &kp PIPE       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EXCL         &kp LC(LA(KP_NUMBER_0))      &kp LEFT_PARENTHESIS   &kp TILDE         &kp CARET          &kp UNDER  &kp HASH      &trans
-&kp DOLLAR     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp QUESTION     &trans                       &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE  &kp AT        &kp SLASH
-&trans         &trans           &trans           &trans           &trans           &trans                       &trans                 &trans                                                        &kp BACKSLASH
+&kp DOLLAR     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp QUESTION     &trans                       &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE  &kp AT        &kp BACKSLASH
+&trans         &trans           &trans           &trans           &trans           &trans                       &trans                 &trans                                                        &kp SLASH
             >;
         };
 
