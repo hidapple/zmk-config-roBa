@@ -111,18 +111,18 @@ layers:
   - UP ARROW
   - RIGHT
   - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Gui+LEFT, h: RIGHT ALT}
+  - AltGr+Gui+LEFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Gui+RIGHT, h: RIGHT ALT}
-  - RIGHT SHIFT
+  - AltGr+Gui+RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
